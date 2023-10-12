@@ -12,7 +12,7 @@ PKG_LICENSE:=LGPLv2.1 GPLv2
 PKG_LICENSE_FILES:=COPYING.LIB COPYING
 
 PKG_INSTALL:=1
-PKG_BUILD_DEPENDS:=libiconv/host
+#PKG_BUILD_DEPENDS:=libiconv/host
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/nls.mk
@@ -31,7 +31,7 @@ define Package/zbar/description
 endef
 
 TARGET_CFLAGS += -fPIC
-TARGET_LDFLAGS += -liconv
+#TARGET_LDFLAGS += -liconv
 
 define Build/Configure
 	$(call Build/Configure/Default, \
