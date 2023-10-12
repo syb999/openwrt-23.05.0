@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-banmac
-PKG_VERSION:=20211118
+PKG_VERSION:=20231012
 
 
 include $(INCLUDE_DIR)/package.mk
@@ -12,6 +12,7 @@ define Package/luci-app-banmac
 	SUBMENU:=3. Applications
 	TITLE:=LuCI Support for Ban Client
 	PKGARCH:=all
+	DEPENDS:=+iptables-nft
 endef
 
 define Build/Compile
