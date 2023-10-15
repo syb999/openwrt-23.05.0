@@ -63,6 +63,7 @@ platform_do_upgrade() {
 	beeline,smartbox-turbo|\
 	beeline,smartbox-turbo-plus|\
 	belkin,rt1800|\
+	c-life,xg1|\
 	dlink,dap-x1860-a1|\
 	dlink,dir-1960-a1|\
 	dlink,dir-2640-a1|\
@@ -101,6 +102,7 @@ platform_do_upgrade() {
 	netgear,wac124|\
 	netgear,wax202|\
 	netis,wf2881|\
+	nokia,a-040w-q|\
 	raisecom,msg1500-x-00|\
 	rostelecom,rt-sf-1|\
 	sercomm,na502|\
