@@ -61,7 +61,8 @@ DEFAULT_PACKAGES.router:=\
 	odhcpd-ipv6only \
 	ppp \
 	ppp-mod-pppoe \
-	iptables-nft
+	iptables-nft \
+	kmod-fast-classifier
 
 ifneq ($(DUMP),)
   all: dumpinfo
