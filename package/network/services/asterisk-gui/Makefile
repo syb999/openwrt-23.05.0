@@ -26,7 +26,8 @@ define Package/asterisk-gui
 	CATEGORY:=Network
 	TITLE:=Asterisk GUI for Asterisk x.x
 	VERSION:=$(PKG_VERSION)
-	DEPENDS:=+asterisk18 +asterisk18-app-exec +asterisk18-app-system
+	DEPENDS:=+asterisk18 +asterisk18-app-exec +asterisk18-app-system \
+	+asterisk18-chan-local +asterisk18-res-crypto +asterisk18-res-musiconhold
 endef
 
 define Package/asterisk-gui/description
