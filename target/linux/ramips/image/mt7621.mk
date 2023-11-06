@@ -516,7 +516,7 @@ TARGET_DEVICES += bolt_arion
 define Device/c-life_xg1
   $(Device/nand)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 91136k
+  IMAGE_SIZE := 206848k
   IMAGES += factory.bin
   IMAGE/factory.bin := append-kernel | pad-to $$(KERNEL_SIZE) | append-ubi | \
 	check-size
